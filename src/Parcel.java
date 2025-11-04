@@ -1,7 +1,6 @@
-// Абстрактный класс Parcel
 public abstract class Parcel {
     private String description;
-    private int weight; 
+    private int weight;
     private String deliveryAddress;
     private int sendDay;
 
