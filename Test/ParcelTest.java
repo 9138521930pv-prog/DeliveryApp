@@ -1,5 +1,11 @@
 import org.junit.jupiter.api.Test;
-
+/*В таком виде название пакетов подставила автоматически IDEA при нажатии не Alt+Enter
+*если пишу так import org.junit.jupiter.api.test
+* то IDEA выдает ошибку
+* cannot resolve symbol 'test'
+*
+* Поясните ваше замечание
+*/
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.junit.jupiter.api.Assertions.assertEquals;

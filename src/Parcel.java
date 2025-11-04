@@ -1,8 +1,8 @@
 public abstract class Parcel {
-    private String description;
-    private int weight;
-    private String deliveryAddress;
-    private int sendDay;
+    protected String description;
+    protected int weight;
+    protected String deliveryAddress;
+    protected int sendDay;
 
     public Parcel(String description, int weight, String deliveryAddress, int sendDay) {
         this.description = description;

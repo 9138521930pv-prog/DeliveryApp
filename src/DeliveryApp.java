@@ -9,7 +9,7 @@ public class DeliveryApp {
     private static ParcelBox<StandardParcel> standardBox = new ParcelBox<>(50);
     private static ParcelBox<FragileParcel> fragileBox = new ParcelBox<>(50);
     private static ParcelBox<PerishableParcel> perishableBox = new ParcelBox<>(50);
-    //PerishableParcel
+
     public static void main(String[] args) {
         boolean running = true;
         while (running) {
